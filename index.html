@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       input:required{
+           outline: 2px solid red;
+       }
+       input:optional{
+           border:1px solid green;
+       }
+       input[type='email']:valid{
+           border-color:pink;
+       }
+       input[type="email"]:invalid{
+           border-color:aqua;
+       }
+    
+    </style>
+</head>
+<style>
+.test{
+    display: inline-block;
+    width:20px;
+    height:1ex;
+    background: url('images/微信图片编辑_20191215223927.jpg') no-repeat center;
+}
+</style>
+<body>
+ <div>
+     测试绝对居中问题<span class='test'></span>
+ </div>
+
+<script src="jquery.min.js"></script>
+   <script src="a.js"></script>
+</body>
+</html>
